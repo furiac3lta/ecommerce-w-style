@@ -12,7 +12,7 @@ import { CategoryService } from 'src/app/services/category.service';
 })
 export class ProductAddComponent implements OnInit{
   
-  id: number = 3;
+  id: number = 1;
   code: string ='001';
   name: string ='';
   description: string='';

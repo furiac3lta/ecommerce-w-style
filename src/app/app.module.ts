@@ -19,6 +19,7 @@ import { HeaderUserComponent } from './components/header-user/header-user.compon
 import { SumaryOrderComponent } from './components/orders/sumary-order/sumary-order.component';
 import { NavbarComponent } from './layout/navbar/navbar.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { HeroComponent } from './components/hero/hero.component';
 
 const routes: Routes = [
   {path: '', component:HomeComponent},
@@ -54,7 +55,8 @@ const routes: Routes = [
     ToastrModule.forRoot(),
     BrowserAnimationsModule,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    HeroComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
